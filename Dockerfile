@@ -10,7 +10,7 @@ COPY . /plugin-docker-test
 #my method on creating a login by default. Not sure if it is scure or not. 
 ADD /config.json /root/.twilio-cli
 WORKDIR /plugin-docker-test
-#RUN npm install
+RUN npm install
 
 EXPOSE 3000
 # WORK

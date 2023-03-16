@@ -1,0 +1,13 @@
+{
+    "email": {},
+    "prompts": {},
+    "projects": [],
+    "profiles": {
+        "Flex2xDelete": {
+            "accountSid": "ACxxxx",
+            "apiKey": "SKxxxx",
+            "apiSecret": "xx"
+        }
+    },
+    "activeProject": "Flex2xDelete"
+}

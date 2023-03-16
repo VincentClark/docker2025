@@ -1,9 +1,9 @@
 FROM twilio/twilio-cli:5.4.1
 
-ARG TWILIO_ACCOUNT_SID=ACxxxx
-ARG TWILIO_AUTH_TOKEN=xxxxx
+ARG TWILIO_ACCOUNT_SID=ACxxx
+ARG TWILIO_AUTH_TOKEN=xxxx
 
-RUN twilio plugins:install @twilio-labs/plugin-flex@6.0.1
+RUN twilio plugins:install @twilio-labs/plugin-flex@6.0.4
 RUN twilio autocomplete bash --refresh-cache && printf "$(twilio autocomplete:script bash)" >> ~/.bashrc
 COPY . /plugin-docker-test
 

@@ -4,9 +4,9 @@
     "projects": [],
     "profiles": {
         "Flex2xDelete": {
-            "accountSid": "ACxxxx",
-            "apiKey": "SKxxxx",
-            "apiSecret": "xx"
+            "accountSid": "ACxx",
+            "apiKey": "x",
+            "apiSecret": "x"
         }
     },
     "activeProject": "Flex2xDelete"
